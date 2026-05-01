@@ -4,9 +4,9 @@ public class Age {
 
         if (age < 13) {
             System.out.println("Child");
-            } else if (age >= 14 && age < 18) {
+            } else if (age >= 13 && age <= 17) {
                 System.out.println("Teen"); 
-            } else if (age >= 19 && age < 70) {
+            } else if (age >= 18 && age <= 60) {
                 System.out.println("Adult");
             } else {
                 System.out.println("Senior");
