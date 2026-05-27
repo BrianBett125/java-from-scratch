@@ -1,8 +1,14 @@
 # ☕ Java Foundations Journey
 
-Welcome to my Java learning repository.
+> *Every expert was once a beginner. This repository is proof of progress — one concept, one program, one improvement at a time.*
 
-This repository documents my journey from a complete beginner to building a strong foundation in Java, with the ultimate goal of becoming a backend engineer using Spring Boot.
+---
+
+## 👋 About This Repository
+
+Welcome to my Java learning repository. This documents my journey from a **complete beginner** to building a strong foundation in Java, with the ultimate goal of becoming a **backend engineer using Spring Boot**.
+
+This is not just about learning syntax — it's about learning how to **think like a software engineer**.
 
 ---
 
@@ -10,120 +16,191 @@ This repository documents my journey from a complete beginner to building a stro
 
 The goal of this repository is to:
 
-* Build a deep understanding of Java from first principles
-* Develop strong problem-solving and logical thinking skills
-* Practice writing clean, structured, and maintainable code
-* Prepare for real-world backend development
-
-This is not just about learning syntax — it's about learning how to think like a software engineer.
+- Build a deep understanding of Java from first principles
+- Develop strong problem-solving and logical thinking skills
+- Practice writing clean, structured, and maintainable code
+- Prepare for real-world backend development with Spring Boot
 
 ---
 
-## 🧠 What I'm Learning
+## 🧠 Topics Covered
 
-This repository covers core Java fundamentals, including:
+### ✅ Currently Learning
+| Topic | Description | Status |
+|-------|-------------|--------|
+| Basic Program Structure | `main` method, classes, compilation | ✅ In Progress |
+| Variables & Data Types | `int`, `String`, `boolean`, `double`, etc. | ✅ In Progress |
+| Input & Output | `Scanner`, `System.out.println` | ✅ In Progress |
+| Conditional Statements | `if`, `else`, `else if`, nested logic | ✅ In Progress |
+| Control Flow | How programs execute step by step | ✅ In Progress |
 
-* Basic program structure (`main`, classes)
-* Variables and data types
-* Input and output
-* Conditional statements (`if`, `else`, nested logic)
-* Control flow and program execution
-* Problem-solving using Java
-
-As I progress, more advanced topics will be added.
-
----
-
-## 🛠️ Approach
-
-My learning approach is:
-
-* **Practice-first** — writing code consistently
-* **Concept-driven** — understanding *why*, not just *how*
-* **Incremental growth** — starting simple, then increasing complexity
-* **Debugging-focused** — learning by fixing errors
+### 🔜 Coming Next
+| Topic | Description | Status |
+|-------|-------------|--------|
+| Loops | `for`, `while`, `do-while` | 🔜 Upcoming |
+| Methods & Functions | Writing reusable blocks of code | 🔜 Upcoming |
+| Arrays | Storing multiple values | 🔜 Upcoming |
+| Object-Oriented Programming | Classes, objects, inheritance, polymorphism | 🔜 Upcoming |
+| Exception Handling | `try`, `catch`, `finally` | 🔜 Upcoming |
+| Collections | `ArrayList`, `HashMap`, `LinkedList` | 🔜 Upcoming |
+| File I/O | Reading and writing files | 🔜 Upcoming |
+| Data Structures & Algorithms | Sorting, searching, recursion | 🔜 Upcoming |
+| Spring Boot Basics | REST APIs, controllers, services | 🔜 Upcoming |
 
 ---
 
 ## 📂 Repository Structure
 
-The repository is organized by topics and exercises:
+```
+java-foundations/
+│
+├── basics/
+│   ├── HelloWorld.java         # First Java program
+│   ├── DataTypes.java          # Variables and types
+│   └── InputOutput.java        # Reading user input
+│
+├── conditions/
+│   ├── IfElse.java             # Basic conditionals
+│   ├── NestedConditions.java   # Nested if-else logic
+│   └── Login.java              # Login simulation with conditions
+│
+├── variables/
+│   ├── Arithmetic.java         # Math operations
+│   └── StringOperations.java   # Working with text
+│
+├── practice-problems/
+│   ├── Problem01.java          # [description of problem]
+│   └── Problem02.java          # [description of problem]
+│
+└── README.md
+```
+
+> 📝 Each folder contains small, focused programs targeting a specific concept. Programs are named clearly to reflect what they demonstrate.
+
+---
+
+## 🛠️ My Learning Approach
+
+| Principle | Description |
+|-----------|-------------|
+| 🏋️ **Practice-first** | Writing code consistently, every day |
+| 💡 **Concept-driven** | Understanding *why*, not just *how* |
+| 📈 **Incremental growth** | Starting simple, then increasing complexity |
+| 🐛 **Debugging-focused** | Learning by reading errors and fixing them |
+| 📖 **Documentation habit** | Writing comments to explain my thinking |
+
+---
+
+## ⚙️ How to Run the Code
+
+### Prerequisites
+- Java JDK 17+ installed → [Download here](https://www.oracle.com/java/technologies/downloads/)
+- A code editor (recommended: [VS Code](https://code.visualstudio.com/) or [IntelliJ IDEA](https://www.jetbrains.com/idea/))
+
+### Running a Java File
+
+```bash
+# 1. Navigate to the folder containing the file
+cd basics
+
+# 2. Compile the Java file
+javac HelloWorld.java
+
+# 3. Run the compiled program
+java HelloWorld
+```
+
+### Check Your Java Version
+
+```bash
+java -version
+```
+
+---
+
+## 🚀 My Progression Roadmap
 
 ```
-/basics
-/variables
-/conditions
-/practice-problems
+Phase 1: Java Fundamentals       ← YOU ARE HERE
+    ↓
+Phase 2: Object-Oriented Programming (OOP)
+    ↓
+Phase 3: Data Structures & Algorithms
+    ↓
+Phase 4: Spring Boot & REST APIs
+    ↓
+Phase 5: Databases (MySQL / PostgreSQL + JPA)
+    ↓
+Phase 6: Building Real-World Backend Applications
 ```
 
-Each folder contains small programs focused on specific concepts.
+---
+
+## 📈 What I've Built So Far
+
+| Program | Concept Practiced | Notes |
+|---------|-------------------|-------|
+| `HelloWorld.java` | Basic output | First Java program |
+| `Login.java` | Conditionals, String comparison | Simulates a login system |
+| *(more will be added as I progress)* | | |
 
 ---
 
-## 🚀 Progression Goal
+## 💡 Key Lessons Learned
 
-This journey is designed to lead into:
-
-* Object-Oriented Programming (OOP)
-* Data Structures and Algorithms
-* Backend Development with Spring Boot
-* Building real-world APIs and systems
-
----
-
-## 📈 Why This Matters
-
-Strong fundamentals are critical in software engineering.
-
-This repository represents:
-
-* Discipline in learning
-* Consistency in practice
-* Growth in problem-solving ability
+- Java is **strongly typed** — every variable needs a declared type
+- Strings must be compared with `.equals()`, not `==`
+- The `main` method is always the **entry point** of a Java program
+- Compilation errors are your friend — read them carefully!
+- *(This section will grow with every new concept I learn)*
 
 ---
 
-## 🤝 Contribution
+## 🔧 Tools & Environment
 
-This is a personal learning repository, but suggestions, improvements, and feedback are always welcome.
+| Tool | Purpose |
+|------|---------|
+| Java JDK 17+ | Compiling and running Java programs |
+| VS Code / IntelliJ IDEA | Writing code |
+| Git & GitHub | Version control and progress tracking |
+| Terminal / Command Line | Running and testing programs |
+
+---
+
+## 📚 Learning Resources
+
+Resources I'm using on this journey:
+
+- 📘 [Official Java Documentation](https://docs.oracle.com/en/java/)
+- 🎥 [Bro Code – Java Full Course (YouTube)](https://www.youtube.com/watch?v=xk4_1vDrzzo)
+- 🌐 [W3Schools Java Tutorial](https://www.w3schools.com/java/)
+- 🧪 [Exercism – Java Track](https://exercism.org/tracks/java) *(for practice problems)*
+- 💬 [Stack Overflow](https://stackoverflow.com/) *(for debugging help)*
+
+---
+
+## 🤝 Contributions & Feedback
+
+This is a personal learning repository, but **suggestions, improvements, and feedback are always welcome!**
+
+If you notice a bug in my code, a better way to solve a problem, or want to share resources — feel free to open an issue or reach out directly.
 
 ---
 
 ## 📬 Contact
 
-If you'd like to connect or collaborate:
-
-* Email: [brianbett756@gmail.com](mailto:brianbett756@gmail.com)
+| Platform | Link |
+|----------|------|
+| 📧 Email | [brianbett756@gmail.com](mailto:brianbett756@gmail.com) |
+| 🐙 GitHub | https://github.com/BrianBett125 |
+| 💼 LinkedIn | https://www.linkedin.com/in/brian-bett-kipkoech/ |
 
 ---
 
-## ⚡ Final Note
+## ⭐ Support
 
-Every expert was once a beginner.
+If you find this repository helpful or inspiring for your own learning journey, consider giving it a **star** ⭐ — it means a lot!
 
-This repository is proof of progress — one concept, one program, one improvement at a time.public class Login {
+---
 
-    public static void main(String[] args) {
-
-        String username = "admin";
-
-        String password = "1234";
-
-        if (username .equals(admin) && password .equals(1234)) {
-
-            System.out.println("Login successful");
-
-        } else if (username != admin) {
-
-            System.out.println("Invalid username");
-
-        } else {
-
-            System.out.println("Invalid password");
-
-        }
-
-    }
-
-}
-
+*Started: 2025 | Goal: Mastering Java with Spring Boot*
